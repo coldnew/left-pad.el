@@ -4,7 +4,7 @@
 ;;
 ;; Author: coldnew <coldnew.tw@gmail.com>
 ;; Keywords: strings
-;; X-URL: http://github.com/coldnew/leftpad.el
+;; X-URL: http://github.com/coldnew/left-pad.el
 ;; Version: 0.1
 
 ;; This file is not part of GNU Emacs.
