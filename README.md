@@ -9,22 +9,23 @@ This is emacs-lisp version of [left-pad](https://github.com/azer/left-pad), all 
 ### Install
 
 
-This package SHOULD-NOT add to [melpa](http://melpa.org/), so you need to install it manually.
+This package SHOULD-NOT add to [melpa](http://melpa.org/), you need to install it manually.
 
 ### Usage
 
 
-    (require 'leftpad)
+```elisp
+(require 'leftpad)
 
-    (leftpad "foo" 5)
-    ;; => "  foo"
+(leftpad "foo" 5)
+;; => "  foo"
 
-    (leftpad "foobar" 6)
-    ;; => "foobar"
+(leftpad "foobar" 6)
+;; => "foobar"
 
-    (leftpad 1 2 0)
-    ;; => "01"
-
+(leftpad 1 2 0)
+;; => "01"
+```
 
 ### Function Documentation
 
